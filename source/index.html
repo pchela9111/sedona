@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="preload" href="../fonts/ptsans.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../fonts/ptsansbold.woff2" as="font" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/picturefill.min.js"></script>
+  <title>Sedona</title>
+  <link href="../pixel-glass/styles.css" rel="stylesheet">
+  <script src="../pixel-glass/script.js"></script>
+  <style>
+    HTML {
+      background: url( 'sedona-index-mobile-1.jpg' ) 50% 0 no-repeat;
+    }
+
+    @media (min-width: 48em) {
+      HTML {
+        background-image: url( 'sedona-index-tablet.jpg' );
+      }
+    }
+
+    @media (min-width: 1200px) {
+      HTML {
+        background-image: url( 'sedona-index.jpg' );
+      }
+    }
+
+    BODY {
+      opacity: .5;
+    }
+</style>
+</head>
+<body>
+  <svg style="display:none">
+  </svg>
+  <div class="container">
+    <header class="header-main">
+      <nav class="nav-main">
+        <a class="nav-main__link-logo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/logo.svg">
+            <img src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Седона">
+          </picture>
+        </a>
+        <ul class="nav-main__list">
+          <li class="nav-main__item"><a class="nav-main__link">Информация</a></li>
+          <li class="nav-main__item"><a class="nav-main__link" href="#">Фото и видео</a></li>
+          <li class="nav-main__item"><a class="nav-main__link" href="#">Карта штата</a></li>
+          <li class="nav-main__item"><a class="nav-main__link" href="hotels.html">Гостиницы</a></li>
+        </ul>
+        <div class="nav-main__row"></div>
+        <div class="nav-main__bg">
+          <img class="nav-main__img" src="img/text-sedona-index.svg" alt="Welcome to the gorgeous. Sedona. &quot;Because the Grand Canyon sucks&quot;">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <h1 class="visually-hidden">Достопримечательности туристического городка Седона. Поиск отелей в Седоне.</h1>
+        <b class="banner__title">Седона &ndash; небольшой  городок в Aризоне, заслуживающий большего!</b>
+        <p class="banner__subtitle">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+      </section>
+      <section class="advantages">
+        <h2 class="visually-hidden">Список доостопримечательностей городка Седона</h2>
+        <ol class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages__inner">
+              <div class="advantages__box  advantages__box--triangle">
+                <b class="advantages__title">Настоящий городок</b>
+                <span class="advantages__number">&ndash; &#8470;1 &ndash;</span>
+                <p class="advantages__text">Седона &ndash; не&nbsp;аттракцион для туристов, там&nbsp;течёт своя жизнь</p>
+              </div>
+              <div class="advantages__img  advantages__img--city"></div>
+            </div>
+            <ul class="advantages__list-benefit">
+              <li class="advantages__item-benefit">
+                <b class="advantages__title  advantages__title--house">Жилье</b>
+                <p class="advantages__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              </li>
+              <li class="advantages__item-benefit  advantages__item-benefit--present">
+                <b class="advantages__title  advantages__title--present">Сувениры</b>
+                <p class="advantages__text">Не только китайского, но и местного производства!</p>
+              </li>
+              <li class="advantages__item-benefit">
+                <b class="advantages__title  advantages__title--food">Еда</b>
+                <p class="advantages__text">Всегда заказывайте фирменный бургер, вы&nbsp;не разочаруетесь!</p>
+              </li>
+            </ul>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__inner">
+              <div class="advantages__box  advantages__box--bridge">
+                <b class="advantages__title">Там есть мост&nbsp;дьявола</b>
+                <span class="advantages__number">&ndash; &#8470;2 &ndash;</span>
+                <p class="advantages__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+              </div>
+              <div class="advantages__img  advantages__img--bridge"></div>
+            </div>
+          </li>
+          <li class="advantages__item-place">
+            <b class="advantages__title">Небольшая площадь</b>
+            <span class="advantages__number">&ndash; &#8470;3 &ndash;</span>
+            <p class="advantages__text">Все достопримеча<wbr>тельности находятся очень&nbsp;близко</p>
+          </li>
+          <li class="advantages__item-place">
+            <b class="advantages__title">Красивая дорога</b>
+            <span class="advantages__number">&ndash; &#8470;4 &ndash;</span>
+            <p class="advantages__text">Ехать в Седону из  Лас&#8209;Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages__item-place">
+            <b class="advantages__title">Мало туристов</b>
+            <span class="advantages__number">&ndash; &#8470;5 &ndash;</span>
+            <p class="advantages__text">Большинство едет в Гранд каньон и&nbsp;толпится там</p>
+          </li>
+        </ol>
+      </section>
+      <section class="search">
+        <h2 class="visually-hidden">Форма поиска гостиниц в Седоне</h2>
+        <header class="search__header">
+          <b class="search__title">Заинтересовались?</b>
+          <p class="search__subtitle">Укажите предполагаемые даты поездки, <span></span>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        </header>
+        <div class="search__wrap">
+          <a class="button button--search" href="#">Поиск гостиницы в Седоне</a>
+          <div class="search__modal">
+            <form class="search__form" action="https://echo.htmlacademy.ru" method="post">
+              <ul class="search__list">
+                <li class="search__item">
+                  <label class="search__label" for="visit">Дата заезда</label>
+                  <input class="search__field" type="text" id="visit" name="visit" placeholder="24 апреля 2017">
+                  <button class="search__calendar" type="button" aria-label="открыть календарь">
+                    <svg class="search__svg" width="23" height="23"><use xlink:href="#icon-calendar"></use></svg>
+                  </button>
+                </li>
+                <li class="search__item">
+                  <label class="search__label" for="leave">Дата выезда</label>
+                  <input class="search__field" type="text" id="leave" name="visit" placeholder="4 июля 2017">
+                  <button class="search__calendar" type="button" aria-label="открыть календарь">
+                    <svg class="search__svg" width="23" height="23"><use xlink:href="#icon-calendar"></use></svg>
+                  </button>
+                </li>
+                <li class="search__item">
+                  <div class="search__box">
+                    <label class="search__label  search__label--middle" for="big-number">Взрослые:</label>
+                    <span class="search__inner">
+                      <button class="search__btn  search__btn--minus" type="button" aria-label="уменьшить число гостей"></button>
+                      <input class="search__input" id="big-number" type="text" name="search-big" value="" placeholder="2">
+                      <button class="search__btn  search__btn--plus" type="button" aria-label="увеличить число гостей"></button>
+                    </span>
+                  </div>
+                  <div class="search__box">
+                    <label class="search__label  search__label--middle" for="small-number">Дети:</label>
+                    <span class="search__inner">
+                      <button class="search__btn  search__btn--minus" type="button" aria-label="уменьшить число гостей"></button>
+                      <input class="search__input" id="small-number" type="text" name="search-small" value="" placeholder="0">
+                      <button class="search__btn  search__btn--plus" type="button" aria-label="увеличить число гостей"></button>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+              <button class="button button--form" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
+
+      </section>
+      <section class="map">
+        <h2 class="visually-hidden">
+          Карта гостиниц в Седоне
+        </h2>
+      </section>
+    </main>
+    <footer class="footer-main  footer-main--index">
+      <a class="footer-main__hashtag">#VisitSedona</a>
+      <ul class="social  social--center">
+        <li class="social__item">
+          <a class="social__link  social__link--twitter" href="#">
+            <span class="visually-hidden">Twitter</span></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link  social__link--facebook" href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link  social__link--youtube" href="#">
+            <span class="visually-hidden">Youtube</span>
+            <svg class="social__svg" width="20" height="16"><use xlink:href="#yt"></use></svg>
+          </a>
+        </li>
+      </ul>
+      <div class="footer-main__html-logo">
+        <p class="footer-main__text">Website by</p>
+
+        <a class="footer-main__link" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Логотип htmlacademy">
+          <svg class="footer-main__svg" width="115" height="41"><use xlink:href="#icon-logo-htmlacademy"></use></svg>
+        </a>
+      </div>
+    </footer>
+  <div>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "sedona",
+  "version": "1.0.0",
+  "description": "Проект Седона.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp css",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pchela9111/sedona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pchela9111/sedona/issues"
+  },
+  "homepage": "https://github.com/pchela9111/sedona#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
