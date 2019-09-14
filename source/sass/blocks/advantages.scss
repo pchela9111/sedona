@@ -206,7 +206,7 @@
     margin-left: auto;
   }
   .advantages__img--city {
-    width: 66.666%;
+    width: 66.66666666666666%;
     background-image: url("../img/main-city-desktop@1x.jpg");
     background-position:  center right;
     background-size: cover;
@@ -223,7 +223,7 @@
   }
   .advantages__img--bridge {
     order: -1;
-    width: 66.666%;
+    width: 66.66666666666666%;
     padding-bottom: 0;
     background-image: url("../img/main-bridge-desktop@1x.jpg");
     background-position:  center right;
@@ -240,8 +240,7 @@
     }
   }
   .advantages__box {
-    min-width: 256px;
-    width: 33.333%;
+    width: 33.33333333333333%;
     padding-top: 45px;
     padding-bottom: 40px;
   }

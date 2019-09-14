@@ -141,7 +141,7 @@
 }
 .search__calendar:focus {
   background-color: transparent;
-  outline:  2px solid #ebebeb;
+  outline:  1px solid #ebebeb;
 }
 .search__svg {
   fill: #a9a9a9;
@@ -270,7 +270,7 @@
   .search__calendar {
     width: 35px;
     height: 35px;
-    top: 0;
+    top: 2px;
     right: 0;
   }
   .search__box {
