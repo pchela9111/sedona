@@ -1,12 +1,11 @@
 .map {
   width: 100%;
   position: relative;
-  min-height: 500px;
+  height: 500px;
   margin: 0 auto;
   background-image: url("../img/bg-map-mobile.jpg");
-  background-color: red;
   background-position: top center;
-  background-size: cover;
+  background-size: auto auto;
   background-repeat: no-repeat;
   background-color: #cbdda9;
 }
@@ -21,20 +20,20 @@
 
 @media (min-width: 568px) {
   .map {
-    min-height: 455px;
+    height: 445px;
     background-image: url("../img/bg-map-tablet.jpg");
   }
   .map__media {
-    min-height: 455px;
+    height: 445px;
   }
 }
 
 @media (min-width: 1200px) {
   .map {
-    min-height: 595px;
+    height: 595px;
     background-image: url("../img/map.jpg");
   }
   .map__media {
-    min-height: 595px;
+    height: 595px;
   }
 }
