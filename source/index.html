@@ -121,13 +121,13 @@
           <p class="search__subtitle">Укажите предполагаемые даты поездки, <span></span>и мы покажем вам лучшие предложения гостиниц в седоне</p>
         </header>
         <div class="search__wrap">
-          <a class="button button--search" href="#">Поиск гостиницы в Седоне</a>
+          <a class="button button--dark" href="#">Поиск гостиницы в Седоне</a>
           <div class="search__modal">
             <form class="search__form" action="https://echo.htmlacademy.ru" method="post">
               <ul class="search__list">
                 <li class="search__item">
                   <label class="search__label" for="visit">Дата заезда</label>
-                  <input class="search__field" type="text" id="visit" name="visit" placeholder="24 апреля 2017">
+                  <input class="search__field" type="text" id="visit" name="visit" placeholder="24 апреля 2017" autofocus>
                   <button class="search__calendar" type="button" aria-label="открыть календарь">
                     <svg class="search__svg" width="23" height="23"><use xlink:href="#icon-calendar"></use></svg>
                   </button>
@@ -158,16 +158,14 @@
                   </div>
                 </li>
               </ul>
-              <button class="button button--form" type="submit">Найти</button>
+              <button class="button button--accent" type="submit">Найти</button>
             </form>
           </div>
         </div>
-
       </section>
       <section class="map">
-        <h2 class="visually-hidden">
-          Карта гостиниц в Седоне
-        </h2>
+        <h2 class="visually-hidden">Карта гостиниц в Седоне</h2>
+        <iframe class="map__media" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1681930.200951288!2d-112.92055265102005!3d34.57836241870316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2sSedona%2C+AZ+86336%2C+USA!5e0!3m2!1sen!2sde!4v1529572855540" frameborder="0" allowfullscreen></iframe>
       </section>
     </main>
     <footer class="footer-main  footer-main--index">
