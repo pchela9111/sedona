@@ -12,15 +12,22 @@
     <link href="../pixel-glass/styles.css" rel="stylesheet">
     <script src="../pixel-glass/script.js"></script>
     <style>
-
-      @media (min-width: 1200px) {
-        html {
-          background-image: url("img/sedona-hotels.jpg");
-        }
+    html {
+      background: url("img/sedona-index-mobile-1.jpg") 50% 0 no-repeat;
+    }
+    @media (min-width: 768px) {
+      html {
+        background-image: url("img/sedona-index-tablet.jpg");
       }
-      body {
-        opacity: .5;
+    }
+    @media (min-width: 1200px) {
+      html {
+        background-image: url("img/sedona-hotels.jpg");
       }
+    }
+    body {
+      opacity: .5;
+    }
     </style>
   </head>
   <body>
