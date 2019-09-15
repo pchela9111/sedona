@@ -45,6 +45,22 @@
   color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
 }
+.button--filter {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 2px solid #ffffff;
+}
+.button--filter:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button--filter:active {
+  color: rgba(0, 0, 0, 0.3);
+}
 
 @media (min-width: 768px) {
   .button--dark {
@@ -55,5 +71,9 @@
   }
   .button--accent {
     width: 100%;
+  }
+  .button--filter {
+    width: 138px;
+    padding: 8px 35px;
   }
 }
