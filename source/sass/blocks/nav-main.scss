@@ -95,7 +95,7 @@
   .nav-main__link-logo {
     width: 140px;
     height: 72px;
-    top: 0;
+    top: -1px;
     left: calc(50% - 140px / 2);
   }
   .nav-main__link-logo img {
@@ -137,7 +137,7 @@
     background-color: transparent;
   }
   .nav-main__link[href]:active {
-      color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
   }
   .nav-main__row {
     display: none;
