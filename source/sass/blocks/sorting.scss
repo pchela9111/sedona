@@ -3,8 +3,6 @@
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: inherit;
-  border-bottom: 2px solid #e9e9e9;
-  border-bottom: 2px solid red;
 }
 .sorting__list {
   width: 100%;
@@ -40,7 +38,6 @@
   padding-left: 25px;
   border: 2px solid  #e9e9e9;
   cursor: pointer;
-
 }
 .sorting__title span {
   opacity: 0;
@@ -110,7 +107,8 @@
 @media (min-width: 768px) {
   .sorting {
     padding-top: 33px;
-    padding-bottom: 33px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e9e9e9;
   }
   .sorting__list {
     width: 88.16%;
@@ -122,10 +120,8 @@
   }
   .sorting__inner {
     width: 75%;
-    /*width: 520px;*/
     display: flex;
     flex-direction: row;
-
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
@@ -141,7 +137,6 @@
     margin-top: 7px;
     border: none;
     cursor: default;
-    color: red;
   }
   .sorting__title span {
     opacity: 1;
@@ -151,7 +146,6 @@
   }
   .sorting__menu {
     width: 50%;
-
     position: static;
     display: flex;
     justify-content: space-between;

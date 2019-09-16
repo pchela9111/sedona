@@ -11,7 +11,7 @@ if (document.querySelector('.sorting__menu')) {
 }
 
 if (document.querySelector('.search__modal')) {
-  var link = document.querySelector('.button--dark');
+  var link = document.querySelector('.button--search');
   var popup = document.querySelector('.search__modal');
 
   link.addEventListener('click', function (a) {
